@@ -8,14 +8,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap-5.2.1-dist/css/bootstrap.css">
     <style>
-      .center {
+      #list {
         text-align: center;
+        list-style-position: inside;
       }
     </style>
 </head>
-<body>
+<body class="p-3 mb-2 bg-info text-dark">
+  
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light" >
             <div class="container-fluid">
               
               
@@ -36,18 +38,21 @@
               </div>
             </div>
           </nav>
+          
           <h1 class="text-center">About Us</h1>
     </header>
     <main>
         <p class="text-center">A little about myself: </p>
-        <ul class="text-center">
+        <ul id="list">
         <li class="text-center">My hobbies include soccer, snowboarding, poker, and cooking</li>
-        
+        <li class="text-center">I also love dogs, going on hikes, swimming, and F1</li>
         </ul>
         <div>
 
         </div>
-                      <a class="center" href="https://github.com/ksolera/BootStrap-assignment" target="_blank">Go to my Repo here</a>
+        <center>
+        <a class="center" href="https://github.com/ksolera/BootStrap-assignment" target="_blank">Go to my Repo here</a>
+        </center>
       </main>
     <script src="bootstrap-5.2.1-dist/js/bootstrap.js"></script>
 </body>
