@@ -33,7 +33,32 @@
       <h1 class="text-center">Contact Us</h1>
     </header>
     <main>
-
+      <form action="results.html" method="get"></form>
+        <div class="mb-3">
+          <label for="exampleInputFName1" class="form-label">First Name</label>
+          <input type="Fname" class="form-control" id="exampleInputFName1" aria-describedby="fnamelHelp">
+          <div id="FnameHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputLName1" class="form-label">Last Name</label>
+          <input type="Lname" class="form-control" id="exampleInputLName1" aria-describedby="lnamelHelp">
+          <div id="LnameHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputemail1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputMessage1" class="form-label">Message</label>
+          <input type="message" class="form-control" id="exampleInputMessage1" aria-describedby="messageHelp">
+          <div id="messageHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Urgent Request?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </main>
     <script src="bootstrap-5.2.1-dist/js/bootstrap.js"></script>
 </body>
